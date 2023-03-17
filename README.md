@@ -7,8 +7,10 @@ I Used a lot of bootstrap through JavaScript in order to keep the HTML and CSS p
 
 ## My Finished Work
 
-- Link to the site:
+- Link to the site: https://msigala96.github.io/Mikes-Day-Calendar/
 
 - When a time block is modified, it will be saved to the page upon reload.
+
+- For Example:
 
 ![_C__Users_Michael_OneDrive_Documents_GitHub_Mikes-Day-Calendar_index html](https://user-images.githubusercontent.com/122051068/225819469-83f011ad-46fc-4586-b15c-87ac40820630.png)
