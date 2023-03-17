@@ -10,4 +10,5 @@ I Used a lot of bootstrap through JavaScript in order to keep the HTML and CSS p
 - Link to the site:
 
 - When a time block is modified, it will be saved to the page upon reload.
-![Alt text](https://file%2B.vscode-resource.vscode-cdn.net/c%3A/Users/Michael/OneDrive/Documents/GitHub/Mikes-Day-Calendar/Assets/_C__Users_Michael_OneDrive_Documents_GitHub_Mikes-Day-Calendar_index.html.png?version%3D1679006599219)
+
+![_C__Users_Michael_OneDrive_Documents_GitHub_Mikes-Day-Calendar_index html](https://user-images.githubusercontent.com/122051068/225819469-83f011ad-46fc-4586-b15c-87ac40820630.png)
