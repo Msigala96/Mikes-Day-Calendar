@@ -56,14 +56,20 @@ $(function () {
 
     // Create save button element
     const saveBtn = document.createElement('button');
+    // the saveBtn size parameters are given
     saveBtn.className = 'btn saveBtn col-2 col-md-1';
+    // provides a textual label for screen readers etc.
     saveBtn.setAttribute('aria-label', 'save');
+    // The variable creates an icon element for the save button 
     const saveIcon = document.createElement('i');
+    // gives the Icon a class name of 'fas fa-save'
     saveIcon.className = 'fas fa-save';
+    // tells whoever is viewing the page that the save icon is decorative and not usable
     saveIcon.setAttribute('aria-hidden', true);
+    // makes the saveIcon a child element of saveBtn
     saveBtn.appendChild(saveIcon);
 
-    // Add hour, description, and save button elements to timeBlock container
+    // Add hour, description, and save button elements to timeBlock container as child elements
     timeBlock.appendChild(hour);
     timeBlock.appendChild(description);
     timeBlock.appendChild(saveBtn);
@@ -71,7 +77,7 @@ $(function () {
     // Add time block container to schedule container
     schedule.appendChild(timeBlock);
   }
-
+  // When the document is fully loaded and ready to be manipulated it will allow for anything typed into the description text area to be saved when the saveBtn variable is clicked
   $(document).ready(function () {
     $(".saveBtn").on("click", function () {
       var text = $(this).siblings(".description").val();
@@ -79,7 +85,7 @@ $(function () {
       localStorage.setItem(id, text);
     });
 
-    // Load saved data
+    // Load saved data within the description element upon refresh or if the page is re-entered after having been exited.
     for (let i = 0; i < hours.length; i++) {
       const id = `hour-${i + 9}`;
       $(`#${id} .description`).val(localStorage.getItem(id));
